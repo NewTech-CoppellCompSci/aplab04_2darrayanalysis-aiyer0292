@@ -115,7 +115,7 @@ public class ArrayAnalysis {
 	
 	
 	//#8
-	public static int[][] transposeRow(int[][] arr1, int dist) {
+	public int[][] transposeRow(int[][] arr1, int dist) {
 		int[][] other  = new int[arr1.length][arr1[0].length];  //creates an array
 
 		for  (int row = 0; row < arr1.length; row +=  dist) {  
